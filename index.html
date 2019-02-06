@@ -222,7 +222,7 @@ $(function() {
 
   $.ajax({
       dataType: 'json',
-      url: '//ipapi.co/8.8.8.8/json/'
+      url: 'https://ipapi.co/8.8.8.8/json/'
     })
     .then(function(data) {
       var yourLocation = data.city + ',' + data.postal + ',' + data.country;
